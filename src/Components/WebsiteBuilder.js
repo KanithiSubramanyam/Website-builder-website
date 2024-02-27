@@ -136,7 +136,7 @@ const WebsiteBuilder = () => {
                         <li>{item.highlights}</li>
                       </ul>
                       <div className="ShowMore">
-                        <a href="#">Show more</a>
+                        <p>Show more</p>
                         <img src={Down} alt="Down" />
                       </div>
                     </div>
