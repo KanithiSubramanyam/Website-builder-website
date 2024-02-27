@@ -145,7 +145,7 @@ const WebsiteBuilder = () => {
                         <strong>{item.rating}</strong>
                       </p>
                       <p>{item.ratingText}</p>
-                      <p><img src={item.Stars} /></p>
+                      <p><img src={item.Stars}  alt=""/></p>
                       <button>View</button>
                     </div>
                   </div>
@@ -176,9 +176,9 @@ const WebsiteBuilder = () => {
                       
                       <ul >
                         <p>Why we love it</p>
-                        <li><pre><img src={Tick2} /> Documentation</pre></li>
-                        <li><pre><img src={Tick2} /> Easy Use</pre></li>
-                        <li><pre><img src={Tick2} /> Out of Box</pre></li>
+                        <li><pre><img src={Tick2} alt=""/> Documentation</pre></li>
+                        <li><pre><img src={Tick2} alt=""/> Easy Use</pre></li>
+                        <li><pre><img src={Tick2} alt=""/> Out of Box</pre></li>
                       </ul>
                       <div className="ShowMore">
                         <a href="#">Show more</a>
@@ -190,7 +190,7 @@ const WebsiteBuilder = () => {
                         <strong>9.1</strong>
                       </p>
                       <p>Very Good</p>
-                      <p><img src={Stars4} /></p>
+                      <p><img src={Stars4} alt=''/></p>
                       <button style={{ position: 'relative', top: '220px' }}>View</button>
                     </div>
                   </div>
