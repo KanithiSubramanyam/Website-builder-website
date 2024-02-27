@@ -1,0 +1,440 @@
+$primary-color: rgba(27, 136, 244, 1);
+$background-color:white;
+$secondary-color: rgba(33, 39, 49, 1);
+$font-weight:400;
+$header-font: rgba(209, 214, 218, 1);
+
+
+.TaskBar{
+    height: 64px;
+    background-color: $secondary-color;
+}
+.TaskBar ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    left: 284px;
+    width: 1024px;
+    justify-content: center;
+    .Input {
+        position: relative;
+        display: inline-block;
+        top: 14px;
+    }
+
+    input {
+        width: 258px;
+        height: 37px;
+        border-radius: 8px;
+        border: 1px solid rgba(225, 228, 230, 1);
+        padding-left: 40px;
+        margin-right: 70px;
+    }
+
+    .Input > img {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 24px;
+        height: auto;
+    }
+
+    li {
+        position: relative;
+        width: 142px;
+        height: 20px;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: $font-weight;
+        color: $header-font;
+        top: 23px; 
+    }  
+}
+
+.mainSection, .mainList {
+    position: relative;
+    width: 1024px;
+    left: 284px;
+    top: -15px;
+    .Heading {
+        width: 1006px;
+        height: 60px;
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .Line {
+        width: 1024px;
+        height: 1.33px;
+        top: 173.67px;
+        background: rgba(225, 228, 230, 1);
+    }
+    .Info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        line-height: 20px;
+        font-size: 14px;
+        height: 42px;
+    }
+    .Info-Left {
+        display: flex;
+        align-items: center;
+        img{
+            margin: 10px 10px;
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .Info-Right {
+        display: flex;
+        align-items: center;
+    }
+
+    .QuickLinks{
+        position: relative;
+        top: 10px;
+        height: 46px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 70px;
+            li{
+                font-size: 14px;
+                border-radius: 12px;
+            }
+        }
+    }
+    .Breadcums{
+        font-size: 14px;
+        height: 20px;
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 15px;
+            padding: 0px;
+            li{
+                font-size: 14px;
+                border-radius: 12px;
+            }
+        }
+    } 
+}
+.ContentBox {
+    position: relative;
+    font-size: 16px;
+    display: block;
+}
+
+.MainContent {
+    font-size: 16px;
+    color: rgba(75, 86, 101, 1);
+    line-height-step: 10px;
+    .Best {
+        position: relative;
+        background-color: rgba(255, 119, 36, 1);
+        color: white;
+        width: 136px;
+        height: 34px;
+        text-align: center;
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        border-radius: 0 8px 8px 0;
+        gap: 10px;
+        top: 25px;
+    }
+    
+}
+.DetailsContent {
+    display: flex;
+    width: 1000px;
+    margin: 0px 10px;
+
+}
+.Details1 img {
+    position: relative;
+    top:55px;
+    width: 141px;
+    height: 103px;
+    margin: 20px;
+}
+
+.Details2 {
+    width: 450px;
+    margin: 25px;
+    line-height: 24px;
+
+    ul {
+        list-style: none;
+    }
+
+    p {
+        strong {
+            color: rgba(75, 86, 101, 1);
+            font-weight: 700;
+        }
+    }
+
+    strong {
+        color: rgba(44, 56, 74, 1);
+        font-weight: 700;
+    }
+
+    img {
+        top: 10px;
+    }
+
+    .ShowMore {
+        display: flex; 
+        align-items: center;
+    }
+
+    .ShowMore a {
+        margin-right: 4px;
+        color:rgba(27, 136, 244, 1);
+        ;
+    }
+    pre{
+        display: flex;
+        justify-content: baseline;
+    }
+}
+
+
+.Details3 {
+    position: relative;
+    background-color: rgba(243, 249, 255, 1);
+    width: 135px;
+    height: 118px;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    left: 80px;
+    strong {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    button{
+        position: relative;
+        background-color: $primary-color;
+        width: 232px;
+        height: 48px;
+        right: 40px;
+        top: 100px;
+        border-radius: 12px;
+        color: white;
+        border: none;
+    }
+    p{
+        line-height: 5px;
+    }
+    
+}
+.Main-highlights {
+    background-color: rgba(255, 244, 237, 1);
+    width: 505px;
+    height: 116px;
+    border: none;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    ul{
+        padding-left: 10px;
+    }
+}
+
+.Main-highlights span {
+    font-size: 16px;
+    color: rgba(27, 136, 244, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    width: 40px;
+    height: 28px;
+    display: inline-flex; 
+    align-items: center;
+    justify-content: center; 
+    margin-right: 5px; 
+}
+
+.Main-highlights li {
+    height: 24px;
+    font-size: 15px;
+    margin-bottom: 8px; 
+}
+
+.Content {
+    p{
+        font-size: 32px;
+        line-height: 44px;
+        color: rgba(44, 56, 74, 1);
+        font-weight: 400;
+    }
+}
+
+.SubContent {
+    display: flex;
+}
+.DealsContainer {
+    display: flex;
+    width: 333px;
+    height: 425px;
+    
+}
+.Deals{
+    padding: 30px 30px;
+}
+.DealsImage {
+    position: relative;
+    width: 141px;
+    height: 103px;
+    left: 50px;
+}
+.DealsList {
+    display: flex;
+    position: relative;
+    top: 20px;
+    gap: 20px;
+    p{
+        width: auto;
+        height: 28px;
+        border-radius: 8px;
+        background-color: rgba(242, 244, 247, 1);
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        padding: 5px 10px 0px 10px;
+    }
+}
+.DealsContent {
+    position: relative;
+    line-height: 20px;
+        top:10px;
+    strong {
+      position: relative;
+      width: 107px;
+      height: 24px;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color: rgba(98, 110, 121, 1);
+      left: 80px;
+      top:10px
+    }
+  
+    p {
+      position: relative;
+      width: 270px;
+      height: 48px;
+      font-size: 16px;
+      line-height: 24px; 
+      color: rgba(98, 110, 121, 1);
+      left: 10px;
+    }
+  
+    span {
+      position: relative;
+      font-size: 20px;
+      line-height: 28px;
+      height: 28px;
+      top: -5px;
+    }
+  
+    small {
+        position: relative;
+      font-size: 14px;
+      line-height: 20px;
+      margin: 10px;
+      color:rgba(159, 169, 179, 1);
+      top: 2px;
+
+      span{
+        color: red; 
+        font-size: 14px;
+        margin: 5px;
+        top: 0px;
+      }
+    }
+  }
+  
+.DealsButton button{
+    position: relative;
+    top:30px;
+    width: 272px;
+    height: 48px;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    background-color:rgba(27, 136, 244, 1);
+    border: none;
+    color: white;
+}
+
+.Signup {
+    position: relative;
+    width: 1024px;
+    height: 171px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 20px;
+    p{
+        width: 398px;
+        height: 88px;
+        font-size: 32px;
+        line-height: 44px;
+        font-weight: 400;
+        color:rgba(92, 104, 116, 1);
+    }
+    button{
+        position: relative;
+        width: 97px;
+        height: 52px;
+        border-radius: 0px 12px 12px 0px;
+        background-color: rgba(27, 136, 244, 1);
+        border: none;
+        color: white;
+        right: 20px;
+    }
+}
+
+.Footer {
+    background-color: $secondary-color;
+    height: 452px;
+
+    .FooterSection {
+        position: relative;
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        align-items: baseline;
+        top: 40px;
+    }
+    .FooterList{
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            height: 24px;
+        }
+        ul{
+            list-style: none;
+            font-size: 14px;
+            line-height: 34px;
+            width: auto;
+            height: 20px;
+            li{
+                color: rgba(182, 189, 196, 1);
+            }
+        }
+        span{
+            position: relative;
+            top: 90px;
+            color: rgba(209, 214, 218, 1);
+            display: flex;
+        }
+    }
+}
