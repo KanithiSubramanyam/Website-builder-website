@@ -181,7 +181,7 @@ const WebsiteBuilder = () => {
                         <li><pre><img src={Tick2} alt=""/> Out of Box</pre></li>
                       </ul>
                       <div className="ShowMore">
-                        <a href="">Show more</a>
+                        <p>Show more</p>
                         <img src={Down} alt="Down" />
                       </div>
                     </div>
